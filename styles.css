@@ -100,7 +100,6 @@ footer p{
     background-color: #151515;
     text-align: center;
     align-items: center;
-    margin-bottom: 120px;
 }
 
 .arrow-div{
@@ -131,6 +130,7 @@ footer p{
 .image-grid-1{
     width: 343px;
     height: 320px;
+    margin-top: 120px;
 }
 
 .image-grid-2{
