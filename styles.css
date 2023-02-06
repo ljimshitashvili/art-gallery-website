@@ -136,20 +136,17 @@ footer p{
 /* image */
 
 .image-grid-1{
-    width: 343px;
-    height: 320px;
+    width: 100%;
     margin-top: 120px;
 }
 
 .image-grid-2{
-    width: 343px;
-    height: 480px;
+    width: 100%;
     margin-bottom: 16px;
 }
 
 .image-grid-3{
-    width: 343px;
-    height: 200px;
+    width: 100%;
     margin-bottom: 16px;
 }
 
