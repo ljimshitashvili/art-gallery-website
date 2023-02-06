@@ -1,0 +1,103 @@
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    width: 100%;
+}
+
+header{
+    background-image: url("art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-map@2x.png");
+    background-size: 375px 550px;
+    height: 550px;
+}
+
+main{
+    background-color: #151515;
+    padding: 48px 16px;
+}
+
+footer{
+    background-color: #D5966C;
+    padding: 48px 32px;
+}
+
+.back-home{
+    width: 264px;
+    height: 72px;
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-div{
+    background-color: #D5966C;
+    width: 56px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* text */
+
+.back-home h2{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.64px;
+    text-transform: uppercase;
+    width: 208px;
+    text-align: center;
+}
+
+main h1{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+}
+
+main h3{
+    color: #D5966C;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#usa{
+    margin-bottom: 20px;
+}
+
+.description{
+    color: #151515;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 38px;
+}
+
+#footer-svg{
+    width: 110px;
+    height: 40px;
+    margin-bottom: 38px;
+}
+
+.icon-container{
+    display: flex;
+    gap: 20px;
+}
+
+a, a:hover, a:active, a:visited, a:link {
+    text-decoration: none;
+}
