@@ -4,10 +4,18 @@ body{
     width: 100%;
 }
 
+header, main, footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 header{
     background-image: url("./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-hero.jpg");
-    background-size: 375px 240px;
+    background-size: 100% 240px;
     background-repeat: no-repeat;
+    background-position: center 0;
     display: flex;
     flex-direction: column;
     padding: 0 16px;
