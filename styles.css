@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    width: 100vh;
     background-color: #FCFAF9;
     font-family: 'Big Shoulders Display', cursive;
 }
@@ -153,6 +153,6 @@ footer p{
 
 
 
-a, a:hover, a:active, a:visited{
+a, a:hover, a:active, a:visited, a:link {
     text-decoration: none;
 }
