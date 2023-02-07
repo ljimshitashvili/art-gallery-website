@@ -1,12 +1,13 @@
 body{
     font-family: 'Big Shoulders Display', cursive;
     width: 100%;
+    background-image: url("art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-map@2x.png");
+    background-size: contain;
+    
+    background-repeat: no-repeat;
 }
 
 header{
-    background-image: url("art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-map@2x.png");
-    background-size: 375px 550px;
-    background-repeat: no-repeat;
     height: 550px;
 }
 
@@ -101,4 +102,37 @@ p{
 
 a, a:hover, a:active, a:visited, a:link {
     text-decoration: none;
+}
+
+@media (min-width: 720px){
+    body{
+        background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-map@2x.png');
+        background-size: 768px auto;
+    }
+
+    header{
+        height: 600px;
+    }
+
+    main{
+        display: flex;
+        padding: 40px;
+        justify-content: space-between;
+    }
+
+    main div {
+        width: 398px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        
+    }   
+
+    footer p{
+        width: 281px;
+        height: 104px;
+        margin: 0;
+    }
 }

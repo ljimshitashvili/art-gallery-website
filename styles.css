@@ -2,6 +2,9 @@ body{
     background-color: #FCFAF9;
     font-family: 'Big Shoulders Display', cursive;
     width: 100%;
+    background-image: url("./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-hero.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 header, 
@@ -11,13 +14,6 @@ main{
     flex-direction: column;
     align-items: center;
     padding: 0 16px;
-}
-
-header{
-    background-image: url("./art-gallery-website/art-gallery-website/starter-code/assets/mobile/image-hero.jpg");
-    background-size: 400px 240px;
-    background-repeat: no-repeat;
-    background-position: center 0;
 }
 
 footer{
@@ -180,6 +176,12 @@ a:link {
 }
 
 @media (min-width: 720px){
+    body{
+        background-image: url('art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-hero@2x.jpg');
+        background-size: 437px auto;
+        
+    }
+
     header, 
     main{
         display: flex;
@@ -188,9 +190,7 @@ a:link {
     }
 
     header{
-        background-image: url('art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-hero@2x.jpg');
-        background-size: 437px 700px;
-        background-position: 0;
+        
         flex-direction: unset;
         justify-content: end;
         align-items: unset;
@@ -243,7 +243,7 @@ a:link {
         grid-area: 1 / 2 / 2 / 3;
     }
 
-    .grid4-tablet{
+    .grid4{
         grid-area: 2 / 2 / 3 / 3;
     }
 
@@ -272,18 +272,19 @@ a:link {
     }
 
     .grid2-tablet{
-        width: 398px;
-        height: 700px;
+        width: 100%;
+        height: 100%;
     }
 
     .grid3-tablet{
-        width: 280px;
-        height: 313px;
+        width: 100%;
+        height: 100%;
     }
 
-    .grid4-tablet{
-        width: 280px;
-        height: 396px;
+    .grid4{
+        max-width: unset;
+        width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -294,7 +295,7 @@ a:link {
 
     .last-div h1, 
     .last-div p{
-        margin: 29px;
+        margin: 0 29px 16px 29px;
         width: unset;
     }
 
@@ -308,5 +309,59 @@ a:link {
     footer p{
         width: 281px;
         height: 104px;
+    }
+}
+
+/* desktop version */
+
+@media (min-width: 1024px){
+    body{
+        background-image: none;        
+    }
+
+    main{
+        margin: 165px;
+    }
+
+    .main-div{
+        gap: 125px;
+        margin-bottom: 30px;
+    }
+
+    .second-div{
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .grid1-desktop{
+        display: unset;
+        width: 60%;
+    }
+
+    .grid2-desktop{
+        display: unset;
+        width: 100%;
+        height: 100%;
+        grid-area: 1 / 1 / 3 / 2;
+    }
+
+    .grid3-desktop{
+        display: unset;
+        width: 100%;
+        height: 100%;
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .grid4{
+        max-width: unset;
+        width: 100%;
+        height: 100%;
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .grid1-tablet, 
+    .grid2-tablet, 
+    .grid3-tablet{
+        display: none;
     }
 }
