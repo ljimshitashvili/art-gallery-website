@@ -7,6 +7,11 @@ body{
     background-repeat: no-repeat;
 }
 
+header{
+    margin-top: 272px;
+    padding: 0 16px;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -20,10 +25,9 @@ footer{
     padding: 32px;
 }
 
-header{
-    margin-top: 272px;
-    padding: 0 16px;
-}
+
+
+/* text */
 
 .text{
     font-size: 60px;
@@ -32,9 +36,6 @@ header{
     text-transform: uppercase;
     margin-bottom: 32px;
 }
-
-/* text */
-
 
 .location{
     width: 260px;
@@ -54,11 +55,6 @@ header{
     justify-content: center;
     align-items: center;
 }
-
-a{
-    max-width: 260px;
-}
-
 
 p{
     color: #444444;
@@ -114,7 +110,6 @@ footer p{
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
-
     font-family: 'Outfit', sans-serif;
 }
 
@@ -191,7 +186,6 @@ a:link {
     body{
         background-image: url('art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-hero@2x.jpg');
         background-size: 437px auto;
-        
     }
  
     header{
@@ -244,10 +238,6 @@ a:link {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    a{
-        max-width: 260px;
     }
 
     main{
@@ -480,10 +470,6 @@ a:link {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    a{
-        max-width: 260px;
     }
 
     .location:hover{

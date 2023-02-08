@@ -40,12 +40,6 @@ footer{
     align-items: center;
 }
 
-a{
-    max-width: 260px;
-}
-
-/* text */
-
 .back-home h2{
     color: white;
     font-weight: 800;
@@ -112,6 +106,7 @@ a, a:hover, a:active, a:visited, a:link {
 }
 
 @media (min-width: 720px){
+
     body{
         background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-map@2x.png');
         background-size: 100% auto;
@@ -127,19 +122,18 @@ a, a:hover, a:active, a:visited, a:link {
         justify-content: space-between;
     }
 
+    footer{
+        display: flex;
+        justify-content: space-between;
+    } 
+
     main h1{
         width: 30%;
     }
 
-    main div {
+    main div{
         width: 398px;
     }
-
-    footer{
-        display: flex;
-        justify-content: space-between;
-        
-    }   
 
     footer p{
         width: 281px;
@@ -152,7 +146,6 @@ a, a:hover, a:active, a:visited, a:link {
     body{
         background-image: url('art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-map@2x.png');
         background-size: auto 685px;
-        
     }
 
     header{
@@ -175,7 +168,6 @@ a, a:hover, a:active, a:visited, a:link {
     main div h3{
         font-size: 36px;
         line-height: 36px;
-
     }
 
     main div p{
