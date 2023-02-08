@@ -20,8 +20,44 @@ footer{
     padding: 32px;
 }
 
+header{
+    margin-top: 272px;
+    padding: 0 16px;
+}
+
+.text{
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
 /* text */
 
+
+.location{
+    width: 260px;
+    height: 72px;
+    background-color:#151515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.arrow-div{
+    width: 56px;
+    height: 72px;
+    background-color: #D5966C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    max-width: 260px;
+}
 
 
 p{
@@ -149,6 +185,8 @@ a:link {
     text-decoration: none;
 }
 
+    /* tablet version */
+
 @media (min-width: 720px){
     body{
         background-image: url('art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-hero@2x.jpg');
@@ -156,10 +194,60 @@ a:link {
         
     }
  
+    header{
+        background-image: url("art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-hero@2x.jpg");
+        background-size: 437px 700px;
+        background-repeat: no-repeat;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        flex-direction: column;
+        padding: 0 40px;
+        margin: 0;
+    }
+
+    .header2{
+        max-width: 339px;
+        margin-left: -48px;
+    }
+
+    .text{
+        width: 339px;
+        font-size: 70px;
+        line-height: 65px;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 0 0 48px -48px;
+    }
+
     main{
         display: flex;
         flex-direction: unset;
         padding: 0 39px;
+    }
+
+    .location{
+        width: 260px;
+        height: 72px;
+        background-color:#151515;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .arrow-div{
+        width: 56px;
+        height: 72px;
+        background-color: #D5966C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a{
+        max-width: 260px;
     }
 
     main{
@@ -320,8 +408,12 @@ a:link {
     }
 
     header{
+        background-image: none;
         display: flex;
         position: relative;
+        flex-direction: unset;
+        justify-content: unset;
+        padding: unset;
     }
 
     .header2{
@@ -329,13 +421,15 @@ a:link {
         position: absolute;
         left: 925px;
         top: 190px;
-        
+        margin: 0;
     }
 
     .header{
         width: 990px;
         height: 800px;
         position: relative;
+        border: none;
+        margin: 0;
     }
 
     .background{
@@ -346,7 +440,7 @@ a:link {
         background-repeat: no-repeat;
         background-position: right;
         background-size: 540px 800px;
-
+        border: none;
     }
 
     .text{
@@ -366,6 +460,7 @@ a:link {
         text-transform: uppercase;
         line-height: 88px;
         font-weight: 900;
+        border: none;
     }
 
     .location{
