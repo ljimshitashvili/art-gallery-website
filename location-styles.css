@@ -66,6 +66,7 @@ main h3{
     font-size: 32px;
     line-height: 32px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 p{
@@ -107,7 +108,7 @@ a, a:hover, a:active, a:visited, a:link {
 @media (min-width: 720px){
     body{
         background-image: url('./art-gallery-website/art-gallery-website/starter-code/assets/tablet/image-map@2x.png');
-        background-size: 768px auto;
+        background-size: 100% 600px;
     }
 
     header{
@@ -118,6 +119,10 @@ a, a:hover, a:active, a:visited, a:link {
         display: flex;
         padding: 40px;
         justify-content: space-between;
+    }
+
+    main h1{
+        width: 30%;
     }
 
     main div {
@@ -134,5 +139,46 @@ a, a:hover, a:active, a:visited, a:link {
         width: 281px;
         height: 104px;
         margin: 0;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        background-image: url('art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-map@2x.png');
+        background-size: 100% 685px;
+    }
+
+    header{
+        padding: 0 156px;
+    }
+
+    main{
+        padding: 104px 165px;
+    }
+
+    main h1{
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    main div{
+        width: 445px;
+    }
+
+    main div h3{
+        font-size: 36px;
+        line-height: 36px;
+
+    }
+
+    main div p{
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    /* desktop active */
+
+    .back-home:hover{
+        background-color:#D5966C;
     }
 }

@@ -7,7 +7,6 @@ body{
     background-repeat: no-repeat;
 }
 
-header, 
 main{
     display: flex;
     justify-content: center;
@@ -23,14 +22,7 @@ footer{
 
 /* text */
 
-header h1{
-    color: #151515;
-    font-weight: 900;
-    font-size: 60px;
-    line-height: 55px;
-    text-transform: uppercase;
-    margin: 272px 0 32px 0;
-}
+
 
 p{
     color: #444444;
@@ -91,24 +83,6 @@ footer p{
 }
 
 /* div */
-
-#location{
-    display: flex;
-    width: 260px;
-    height: 72px;
-    background-color: #151515;
-    text-align: center;
-    align-items: center;
-}
-
-.arrow-div{
-    width: 56px;
-    height: 72px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D5966C;
-}
 
 .last-div{
     background-color: #151515;
@@ -181,35 +155,11 @@ a:link {
         background-size: 437px auto;
         
     }
-
-    header, 
+ 
     main{
         display: flex;
         flex-direction: unset;
         padding: 0 39px;
-    }
-
-    header{
-        
-        flex-direction: unset;
-        justify-content: end;
-        align-items: unset;
-        height: 700px;
-        margin-bottom: 120px;
-    }
-
-    .header{
-        width: 340px;
-        margin-top: 145px;
-    }
-
-    header h1{
-        color: #151515;
-        font-weight: 900;
-        font-size: 70px;
-        line-height: 65px;
-        text-transform: uppercase;
-        margin: 0 auto 48px auto;
     }
 
     main{
@@ -318,13 +268,7 @@ a:link {
     body{
         background-image: none;        
     }
-
-    .black-div{
-        width: 450px;
-        height: 800px;
-        background-color: black;
-    }
-
+   
     main{
         margin: 165px;
     }
@@ -371,15 +315,87 @@ a:link {
         display: none;
     }
 
-    #location:hover{
+    footer svg path:hover{
+        fill: #D5966C;
+    }
+
+    header{
+        display: flex;
+        position: relative;
+    }
+
+    .header2{
+        max-width: 350px;
+        position: absolute;
+        left: 925px;
+        top: 190px;
+        
+    }
+
+    .header{
+        width: 990px;
+        height: 800px;
+        position: relative;
+    }
+
+    .background{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        background-image: url("art-gallery-website/art-gallery-website/starter-code/assets/desktop/image-hero@2x.jpg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 540px 800px;
+
+    }
+
+    .text{
+        width: 825px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 96px;
+        background-image: linear-gradient(270deg, black 0%,  black 540px, white 540px, white 990px);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-left: 165px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        line-height: 88px;
+        font-weight: 900;
+    }
+
+    .location{
+        width: 260px;
+        height: 72px;
+        background-color:#151515;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .arrow-div{
+        width: 56px;
+        height: 72px;
+        background-color: #D5966C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a{
+        max-width: 260px;
+    }
+
+    .location:hover{
         background-color: #D5966C;
     }
 
-    .arrow-div:hover{
+    .location:hover .arrow-div{
         background-color: #151515;
-    }
-
-    footer svg path:hover{
-        fill: #D5966C;
     }
 }
